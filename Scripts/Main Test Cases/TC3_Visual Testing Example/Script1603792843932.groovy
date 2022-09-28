@@ -18,6 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.configuration.RunConfiguration
 
 /**
  * This is an example of how to use Visual Testing. See tutorial at 
@@ -27,6 +28,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 WebUI.comment('Story: Book an appointment')
 
 WebUI.comment('Given that the user has logged into their account')
+
+RunConfiguration.setDriverPreferencesProperty("Remote", "browserName", "chrome")
 
 WebUI.openBrowser(GlobalVariable.G_SiteURL)
 

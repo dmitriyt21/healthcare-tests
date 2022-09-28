@@ -18,11 +18,12 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.configuration.RunConfiguration
 
 WebUI.comment('Story: Login to CURA system')
 
 WebUI.comment('Given that the user has the valid login information')
-import com.kms.katalon.core.configuration.RunConfiguration
+
 RunConfiguration.setDriverPreferencesProperty("Remote", "browserName", "chrome")
 //WebUI.startBrowser()
 
