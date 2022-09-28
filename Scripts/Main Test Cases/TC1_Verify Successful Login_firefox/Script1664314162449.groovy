@@ -23,7 +23,7 @@ WebUI.comment('Story: Login to CURA system')
 
 WebUI.comment('Given that the user has the valid login information')
 import com.kms.katalon.core.configuration.RunConfiguration
-RunConfiguration.setDriverPreferencesProperty("Remote", "browserName", "chrome")
+RunConfiguration.setDriverPreferencesProperty("Remote", "browserName", "firefox")
 //WebUI.startBrowser()
 
 WebUI.openBrowser(GlobalVariable.G_SiteURL)

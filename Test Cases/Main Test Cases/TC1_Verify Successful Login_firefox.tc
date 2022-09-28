@@ -9,36 +9,36 @@ Steps:
 
 Expected result:
 'Appointment' section is displayed after successful login</description>
-   <name>TC1_Verify Successful Login</name>
+   <name>TC1_Verify Successful Login_firefox</name>
    <tag></tag>
    <comment>Story: Login to CURA system
 Given that the user has valid login information
 When he logins to CURA system
 Then he should be able to login successfully</comment>
-   <testCaseGuid>e9b87e65-c02e-4631-8c4a-a4b3d9218d69</testCaseGuid>
+   <testCaseGuid>03351be7-2154-4a62-8535-504f0ee64338</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>14d98e7b-4ac8-4e28-8ce7-394001d188f0</variableId>
+      <variableId>3236b371-0fc0-4472-9bcb-d876fefe7d6b</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>a97344e7-5f9c-4936-92a2-d85e5463f3c9</variableId>
+      <variableId>677d9a4b-7eb9-4f8e-956e-56e2ec193da7</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'John Doe'</defaultValue>
       <description></description>
-      <id>14d98e7b-4ac8-4e28-8ce7-394001d188f0</id>
+      <id>3236b371-0fc0-4472-9bcb-d876fefe7d6b</id>
       <masked>false</masked>
       <name>Username</name>
    </variable>
    <variable>
       <defaultValue>'ThisIsNotAPassword'</defaultValue>
       <description></description>
-      <id>a97344e7-5f9c-4936-92a2-d85e5463f3c9</id>
+      <id>677d9a4b-7eb9-4f8e-956e-56e2ec193da7</id>
       <masked>false</masked>
       <name>Password</name>
    </variable>
